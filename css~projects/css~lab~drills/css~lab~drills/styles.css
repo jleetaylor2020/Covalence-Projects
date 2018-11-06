@@ -1,0 +1,136 @@
+body {
+font-family: "Playfair Display SC", serif;
+background-color: lightgrey;
+}
+
+h2,p,.readme-wrapper {
+    text-align: center;
+}
+
+a:-webkit-any-link {
+    color: crimson;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boxes {
+    display: block;
+    margin: 2em;
+    padding: 0.3rem;
+    border: solid;
+    border-radius: 1em;
+}
+
+a:hover { 
+    color: darkblue;
+    font-weight: bolder;
+}
+
+span {
+    color: whitesmoke;
+    font-weight: 600;
+
+}
+
+#yellow {
+    color: yellow;
+}
+
+#green {
+    color: green;
+}
+
+#brown {
+    color: brown;
+}
+
+#orange {
+    color: orange;
+}
+
+.box {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: fuchsia;
+    text-align: right;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.original {
+    color: red;
+}
+
+.second {
+    color: black;
+}
+
+#show1 {
+    color: gold;
+}
+
+#show2 {
+    color: darkcyan;
+}
+
+#show3 {
+    color: brown;
+}
+
+#show4 {
+    color: aqua;
+}
+
+#show5 {
+    color: darkolivegreen;
+}
+.locations {
+    color: red;
+}
+
+.restaurants {
+    color: darkred;
+}
+
+.friends {
+    color: lawngreen
+}
+
+#one {
+    color: aqua;
+}
+
+#two {
+    color: purple;
+}
+
+#three {
+    color: brown;
+}
+
+#four {
+    color: lightcoral;
+}
+
+#five {
+    color: black;
+}
+
+h3 {
+    color: darkgoldenrod;
+}
+
+.border {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2px;
+    width: 325px;
+}
+
+.txt-center {
+    font-display: center;
+}
