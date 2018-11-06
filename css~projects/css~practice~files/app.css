@@ -1,0 +1,131 @@
+
+body {
+    background-color: lightgrey
+
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-blue {
+    color: blue
+}
+
+.text-red {
+    color: red
+}
+
+.text-black {
+    color: black
+}
+
+#submitButton {
+    background-color: red
+}
+
+[for="email"] {
+    font-weight: bold;
+}
+
+.red {
+    position: relative;
+    color: #ff0000
+    height: 10em;
+    width: 10cm;
+}
+
+.green {
+    position: absolute;
+    color: #00ff00
+    height: 10em;
+    width: 10em;
+    
+}
+
+.blue {
+    position: static
+    color: #0000ff
+    height: 10em;
+    width: 10em;
+    
+}
+
+.blue-green {
+    color: #345678
+}
+
+.red-rgb {
+    color: rgb(255, 0,0,.5);
+}
+
+.red-rgba {
+    color: rgba(255,0,0,.5);
+}
+
+.red-text {
+    color: red;
+}
+
+.red-bg {
+    background: red;
+}
+
+.highlight {
+    background: yellow
+}
+
+button {
+    display: inline;
+}
+
+ .relative {
+     position: relative   
+ }
+
+.absolute {
+    position: absolute
+}
+
+ #two {
+     top: 50px;
+     left: 50px;
+     background: blue;
+
+ #one {
+     top: 75px;
+     left: 75px;
+     background: .red-rgb
+ }    
+
+ #three {
+     top: 50px;
+     right: 50px;
+     background: green;
+ }
+
+ }
+ .triangle-up {
+	width: 0;
+    height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+
+.box {
+    height: 10em;
+    width: 10em;
+}
+
+div {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+button {
+    display: block;
+}

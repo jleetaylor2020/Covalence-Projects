@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Learning Display and Layout: Use CSS to use HTML elements and control where they are positioned to their normal flow-->
+<!--Display property tell the type of rendering box for an element-->
+<!--List of different display properties can be found at bottom of this page-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Page with Display and Layout</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="text-center text-blue"> What Can Display and Layout Do?</h1>
+        <h3>Check all that apply:</h3>
+        <hr>
+
+        <form action="">
+
+            <input type="checkbox" name="check-1">Work Miracles
+            <input type="checkbox" name="check-2"> Nothing Special
+            <input type="checkbox" name="check-3"> Clean Your House
+            <input type="checkbox" name="check-4"> Help The Positioning of Elements On Your Webpage
+            <hr> <!--example of using block below with button-->
+            <button>Sumit</button><button>Cancel</button>
+
+
+        </form>
+        <hr>
+        <h3>First article</h3>
+        <article>
+            <!--- example of span changing to block display in highlighted yellow below-->
+            <p> Lorem ipsum dolor sit amet, pri volumus splendide disputando no. Nihil vivendo <span class="highlight">splendide</span>
+                ex est. Ignota
+                dignissim per ad, cu quaeque aliquam fastidii vix, an meliore urbanitas persecuti est. No mea principes
+                persequeris, ea iusto referrentur qui, mel ei eius <span class="highlight">volutpat</span>.
+            </p>
+        </article>
+        <hr>
+        <h3>Example of Radio</h3>
+        <form action="">
+            <input type="radio" name="radio" id="radio"> Hot Radio
+            <input type="radio" name="radio" id="radio"> Cold Radio
+            <input type="radio" name="radio" id="radio"> Luke-Warm Radio
+        </form>
+    </main>
+</body>
+
+</html>
+<!--FOR REFERENCE ONLY-->
+<!--/* <display-outside> values */
+display: block;
+display: inline;
+display: run-in;
+
+/* <display-inside> values */
+display: flow;
+display: flow-root;
+display: table;
+display: flex;
+display: grid;
+display: ruby;
+display: subgrid;
+
+/* <display-outside> plus <display-inside> values */
+display: block flow;
+display: inline table;
+display: flex run-in;
+
+/* <display-listitem> values */
+display: list-item;
+display: list-item block;
+display: list-item inline;
+display: list-item flow;
+display: list-item flow-root;
+display: list-item block flow;
+display: list-item block flow-root;
+display: flow list-item block;
+
+/* <display-internal> values */
+display: table-row-group;
+display: table-header-group;
+display: table-footer-group;
+display: table-row;
+display: table-cell;
+display: table-column-group;
+display: table-column;
+display: table-caption;
+display: ruby-base;
+display: ruby-text;
+display: ruby-base-container;
+display: ruby-text-container;
+
+/* <display-box> values */
+display: contents;
+display: none;
+
+/* <display-legacy> values */
+display: inline-block;
+display: inline-table;
+display: inline-flex;
+display: inline-grid;
+
+/* Global values */
+display: inherit;
+display: initial;
+display: unset;-->

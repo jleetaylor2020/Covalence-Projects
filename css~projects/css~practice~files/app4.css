@@ -1,0 +1,60 @@
+
+body.style {
+    background-image: url(https://images.pexels.com/photos/426710/pexels-photo-426710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    height: -webkit-fill-available;
+    color: whitesmoke;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header1 {
+    font-stretch: ultra-condensed;
+    font-family: "Playfair Display SC", serif;
+    font-size: 4.74em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    font-weight: lighter;
+}
+
+#email-box {
+    object-position: center;
+    color: darkred;
+    font-size: larger;
+    height: 30px;
+    width: 285px;
+}
+
+.small-italics {
+    display: inline;
+    font-style: italic;
+    color: darkorange;
+    font-size: 1.45em;
+    margin: 2.5em;
+}
+
+form {
+    display: inline-flex;
+    margin-left: 3.9em;
+}
+
+input {
+    border-image: initial;
+    -webkit-appearance: menulist;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: unset;
+    border-style: inset;
+    border-color: peachpuff;
+}
+
+    
